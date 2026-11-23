@@ -1,0 +1,16 @@
+# ТОЛЬКО ПРИМЕР. Не копируйте этот файл в рабочую конфигурацию как есть.
+# Используйте `rclone config` для безопасного интерактивного заполнения.
+# Никогда не коммитьте реальный ~/.config/rclone/rclone.conf
+
+[gdrive]
+type = drive
+scope = drive.readonly
+# token = <OAuth token: НЕ ХРАНИТЬ В GIT>
+
+[seafile]
+type = seafile
+url = https://drive.armenianclub.org
+# user = <YOUR_SEAFILE_USERNAME>
+# pass = <RCLONE_OBSCURED_PASSWORD: НЕ ХРАНИТЬ В GIT>
+# library = Media
+# Точные имена параметров зависят от версии rclone; настройте через `rclone config`.
